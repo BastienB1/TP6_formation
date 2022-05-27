@@ -9,7 +9,7 @@ pipeline {
       stages {
         stage('Clone sources') {
             steps {
-                git url: 'https://github.com/HugoDux021/TP6_formation.git',
+                git url: 'https://github.com/BastienB1/TP6_formation.git',
                 branch: "main"
             }
         }
